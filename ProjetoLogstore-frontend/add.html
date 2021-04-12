@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>LogStore</title>
+</head>
+
+<body style="background-color: #A4A4A4;">
+
+  <section class="container box-shadow mb-5 pt-5 pb-3 mt-5"
+    style="border: 2px solid grey; border-radius: 50px; background-color: white;">
+
+    <div class="text-center">
+      <h1 class="display-4 text-primary mr-2">Insert</h1>
+
+      <div class="d-flex justify-content-between">
+        <span></span>
+        <span class="h6 ml-5">Insert in Log</span>
+        <a class="btn btn-primary py-2 button-style" href="index.html" role="button">BACK</a>
+      </div>
+    </div>
+    <div class="row justify-content-center px-3 py-5">
+
+      <form id="form-add">
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label class="color-label">Occurrence</label>
+            <input class="form-control" id="occurrences-input" required type="number">
+          </div>
+
+          <div class="form-group col-12">
+            <label class="color-label">Content</label>
+            <textarea class="form-control" id="content-input" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" id="save-register" class="btn btn-primary btn-block p-2 button-style">Insert Log</button>
+
+        </div>
+
+      </form>
+
+
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
+
+</body>
+
+</html>

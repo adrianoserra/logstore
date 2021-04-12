@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="//cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>LogStore</title>
+</head>
+
+<body style="background-color: #A4A4A4;">
+
+  <section class="container box-shadow mb-5 pt-5 pb-3 mt-5 section-style">
+
+    <div class="text-center">
+      <h1 class="display-4 text-primary mr-4">Log</h1>
+
+      <div class="d-flex justify-content-between">
+        <span></span>
+        <span class="h6 ml-5">Log Records</span>
+        <a class="btn btn-primary py-2 button-style" href="add.html" role="button">INSERT</a>
+      </div>
+    </div>
+    <div class="row px-3 py-5">
+
+      <table id="tabela" class="table table-striped" style="width:100%;">
+        <thead>
+          <tr class="bg-info">
+            <th class="color-th">Id</th>
+            <th class="color-th">Occurrences</th>
+            <th class="color-th">Content</th>
+            <th class="color-th">Action</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr class="bg-info">
+            <th>Id</th>
+            <th>Occurrences</th>
+            <th>Content</th>
+            <th>Action</th>
+          </tr>
+        </tfoot>
+      </table>
+
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script src="js/render.js"></script>
+
+</body>
+
+</html>

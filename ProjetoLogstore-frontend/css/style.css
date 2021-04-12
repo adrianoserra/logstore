@@ -1,0 +1,19 @@
+.section-style{
+  border: 2px solid grey; 
+  border-radius: 50px; 
+  background-color: white;
+}
+
+.button-style {
+  border-radius: 10px; 
+  font-weight: 500;
+}
+
+.color-th{
+  color: white;
+}
+
+.color-label{
+  color:black; 
+  font-weight: 500;
+}
